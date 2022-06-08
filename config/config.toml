@@ -1,0 +1,7 @@
+[db]
+dsn = "root:root@tcp(localhost:3306)/unacademy"	# or from env DB_DSN
+
+[queue]
+uri = "amqp://guest:guest@localhost:5672/"	# or from env QUEUE_URI
+queue_name = "micro-unacademy-feedback" 	# or from env QUEUE_NAME
+consumer_name = "mu-worker"			# or from env QUEUE_CONSUMER_NAME

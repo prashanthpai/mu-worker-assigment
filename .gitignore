@@ -1,0 +1,3 @@
+mu-worker
+.mysql/
+.rabbitmq/
